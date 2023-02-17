@@ -226,7 +226,8 @@ Modify the command above for the corresponding search function and container typ
 measure the runtime and enter it into the table.
 
 |                            | `array`  | `list`  | `tuple`     | `deque`  |
-| -------------------------- | ---------| --------|------------ | ---------|| `sequential_search_itr`    |8990      |1250     |1120         |1310      |
+| -------------------------- | ---------| --------|------------ | ---------|
+| `sequential_search_itr`    |8990      |1250     |1120         |1310      |
 | `sequential_search_itr2`   |11600     |2560     |2370         |11500     |
 | `sequential_search_rec`    |  ---     | ---     |  ---        |  ---    |
 | `binary_search_itr`        |10.1      |2.53    |2.4           | 173    |
