@@ -226,13 +226,12 @@ Modify the command above for the corresponding search function and container typ
 measure the runtime and enter it into the table.
 
 |                            | `array`  | `list`  | `tuple`     | `deque`       |
-| -------------------------- | ---------| --------|------------ | ------------- |
-| `sequential_search_itr`    |          |         |             |               |
-| `sequential_search_itr2`   |          |         |             |               |
-| `sequential_search_rec`    |  ---     | ---     |  ---        |  ---          |
-| `binary_search_itr`        |          |         |             |               |
-| `binary_search_rec`        |          |         |             |               |
-| `binary_search_rec2`       |          |         |             |  ---          |
+| -------------------------- | ---------| --------|------------ | ---------|| `sequential_search_itr`    |8990      |1250     |1120         |1310      |
+| `sequential_search_itr2`   |11600     |2560     |2370         |11500     |
+| `sequential_search_rec`    |  ---     | ---     |  ---        |  ---    |
+| `binary_search_itr`        |10.1      |2.53    |2.4           | 173    |
+| `binary_search_rec`        |11.2      |3.97     |3.92          |173     |
+| `binary_search_rec2`       |9.95      |420      |430           |  ---          |
 
 You should notice that:
 1. for the `array` container, all implementations of binary search work well
